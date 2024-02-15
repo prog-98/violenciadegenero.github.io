@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Web</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="./img/logoUG.png" width="70" height="70">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#temas">Temas</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#encuesta">Encuestas</a></li>
+            </ul>
+            <div class="bar">
+                <i class="open fa-solid fa-bars"></i>
+                <i class="close fa-solid fa-xmark"></i>
+            </div>
+        </nav>
+    </div>
+    <div class="main">
+        <div class="home" id="home">
+            <div class="left text">
+                <h1>Bienvenidos</h1>
+                <br>
+                <h3>No a la Violencia <span class="typing1"></span></h3>
+            </div>
+            <div class="image">
+                <img src="./img/logoheader.png">
+            </div>
+        </div>
+        <!-----------------------------------Sobre Nosotros------------------------------------>
+        <div class="about" id="about">
+            <div class="title aboutTxt">
+                <span>Sobre Nosotros</span>
+            </div>
+            <div class="container">
+                <div class="img">
+                    <img src="pages/images/violencia_genero.jpg" alt="">
+                </div>
+                <div class="aboutText">
+                    <h2>No a la Violencia <span class="typing2"></span></h2>
+                    <p>text text text text text text text text text text text texttext text text text text text text
+                        text text text text text</p>
+                </div>
+            </div>
+        </div>
+
+        <!----------------------------------------Temas---------------------------------------->
+
+        <section class="back">
+            <div class="temas" id="temas">
+                <div class="temasTxt title">
+                    <span>Temas</span>
+                </div>
+
+                <div class="container">
+                    <div class="box">
+                        <span></span>
+                        <div class="content">
+                            <h2>Violencia Sexual</h2>
+                            <p>Se entiende por violencia sexual cualquier acto de naturaleza sexual cometido contra la
+                                voluntad de otra persona, ya sea que esta no haya otorgado su consentimiento o por ser
+                                menor de edad.</p>
+                            <a href="pages/gender.html#violenciasexual">Leer Más..</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <span></span>
+                        <div class="content">
+                            <h2>Violencia Física</h2>
+                            <p>Consiste en causar o intentar causar daño a una pareja golpeándola, propinándole patadas,
+                                quemándola, agarrándola, así como empleando cualquier otro tipo de fuerza física.</p>
+                            <a href="pages/gender.html#violenciafísica">Leer Más..</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <span></span>
+                        <div class="content">
+                            <h2>Violencia Psicológica</h2>
+                            <p>Consiste en provocar miedo a través de la intimidación, en amenazar con causar daño
+                                físico a una persona, su pareja o sus hijas o hijos, o con destruir sus mascotas y
+                                bienes.</p>
+                            <a href="pages/gender.html#violenciapsicológica">Leer Más..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="btn"><a href="./pages/temas.html">Ir a Temas <i
+                                class="fa-solid fa-arrow-right"></i></a></button>
+                </div>
+        </section>
+
+
+        <!----------------------------------------Datos---------------------------------------->
+        <div class="datos" id="datos">
+            <div class="title" id="encuesta"><span >Datos</span></div>
+            <div class="datosBox">
+                <div class="left">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ullam hic pariatur perspiciatis
+                        mollitia accusantium voluptatum, voluptas sint impedit rerum!</p>
+                    <div class="buttons">
+                        <button class="btn">Ir a Encuestas</button>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="progress html">
+                        <div class="info">
+                            <span>Violencia del Hombre hacia la Mujer</span>
+                            <span>73%</span>
+                        </div>
+                        <div class="range"></div>
+                    </div>
+
+                    <div class="progress python">
+                        <div class="info">
+                            <span>Violencia de la Mujer hacia el Hombre</span>
+                            <span>45%</span>
+                        </div>
+                        <div class="range"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--------------------------------------Contanto--------------------------------------->
+        <div class="contact" id="contact">
+            <div class="title">
+                <span>Contacto</span>
+            </div>
+            <div class="contactBox">
+                <div class="left">
+                    <form action="submit">
+                        <div class="genInfo">
+                            <input type="text" placeholder="Nombre" class="name" required>
+                            <input type="email" placeholder="Email" class="email" required>
+                        </div>
+                        <div class="subject">
+                            <input type="text" placeholder="asunto" required>
+                        </div>
+                        <div class="message">
+                            <textarea name="message" rows="8" placeholder="Mensaje" required></textarea>
+                        </div>
+                        <div>
+                            <button class="btn">Enviar Mensaje</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="right">
+                    <br><br>
+                    <div class="infoBox name">
+                        <i class="fa-solid fa-user"></i>
+                        <div class="user">
+                            <div>teléfono</div>
+                            <div>0912309455</div>
+                        </div>
+                    </div>
+                    <div class="infoBox email">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div class="user">
+                            <div>Correo</div>
+                            <div>correo@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="infoBox address">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="user">
+                            <div>Dirección</div>
+                            <div>Universidad de Guayaquil</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------------------Footer---------------------------------------->
+    <div class="footer">
+        <div class="copy">
+            Copyright &copy; 2022 Página Creada por Danilo Cedeño & Edgar Pérez
+        </div>
+        <div class="socialIcons">
+            <a><i class="fa-brands fa-instagram"></i></a>
+            <a><i class="fa-brands fa-square-facebook"></i></a>
+        </div>
+    </div>
+
+    <div class="topBtn">
+        <a href="#"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+
+    <!---------------------------------------Scrpits--------------------------------------->
+    <script src="scroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

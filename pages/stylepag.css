@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import "../style.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.container .box:nth-child(4):before,
+.container .box:nth-child(4):after {
+    background: linear-gradient(315deg, violet,#0319f4,#0319f4);
+}
+
+.container .box:nth-child(5):before,
+.container .box:nth-child(5):after {
+    background: linear-gradient(315deg, orange,red);
+}
+
+.container .box:nth-child(6):before,
+.container .box:nth-child(6):after {
+    background: linear-gradient(315deg, red,indigo);
+}
+
+.container .box:nth-child(7):before,
+.container .box:nth-child(7):after {
+    background: linear-gradient(315deg, fuchsia,blue);
+}
+
+.container .box:nth-child(8):before,
+.container .box:nth-child(8):after {
+    background: linear-gradient(315deg, red,orange);
+}
